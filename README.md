@@ -5,15 +5,13 @@ Applied Power BI, Power Query, and DAX to clean, model, and visualize retail sal
 Author: 👤 **Loc Ha**  
 Date: 📅 June 2025  
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=white)  
-![Power Query](https://img.shields.io/badge/Tool-Power%20Query-217346?logo=microsoft-excel&logoColor=white)  
-![DAX](https://img.shields.io/badge/Tool-DAX-006272?logo=databricks&logoColor=white)  
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=white)  ![Power Query](https://img.shields.io/badge/ETL-Power%20Query-217346?logo=microsoft-excel&logoColor=white)  ![DAX](https://img.shields.io/badge/Formula-DAX-006272?logo=databricks&logoColor=white)  
 
 ---
 
 ## 🚀 Executive Overview  
 
-Superstore is a fictional retail company based in the United States, specializing in **Furniture, Office Supplies, and Technology**.  
+Superstore is a fictional retail company based in the United States, specializing in Furniture, Office Supplies, and Technology.
 In this project, I took the role of a **Business Intelligence Analyst** to uncover key opportunities and challenges for business growth and profitability.  
 
 ### 🔎 Business Questions  
@@ -34,7 +32,7 @@ In this project, I took the role of a **Business Intelligence Analyst** to uncov
 3. [🧠 Design Thinking Process](#-design-thinking-process)  
 4. [⚒️ Main Process](#️-main-process)  
 5. [📊 Key Insights & Visualizations](#-key-insights--visualizations)  
-6. [🔎 Final Conclusion & Recommendations](#-final-conclusion--recommendations)  
+6. [🔎 Final Conclusion](#-final-conclusion)  
 
 ---
 
@@ -71,7 +69,8 @@ The **Senior Manager** wants to evaluate the company’s global performance to:
 - **_Measures** → DAX KPIs (Profit Margin, Return Rate %, etc.).  
 
 ### 🔗 Data Relationships  
-![Data Model](c92e3cf3-968f-44c0-8fd7-4d9f3b740f1c.png)  
+<img width="1828" height="1539" alt="Screenshot 2025-09-06 113720" src="https://github.com/user-attachments/assets/18f5f7b0-6d96-4a15-9494-cdbc85e5713b" />
+
 
 ---
 
@@ -158,7 +157,8 @@ RETURN DIVIDE([Total Sales] - __PREV_YEAR, __PREV_YEAR)
 ### 🔍 Dashboard Previews  
 
 #### 1️⃣ Market Expansion Dashboard  
-![Market Expansion Dashboard](Screenshot%202025-09-06%20113616.png)  
+<img width="2745" height="1559" alt="Screenshot 2025-09-06 113616" src="https://github.com/user-attachments/assets/df3ddda2-00af-466a-bd71-6544210a1d79" />
+
 
 - **Observation**: Central region leads in sales, while Canada shows the highest profit margin (26.6%) but low revenue.  
 - **Recommendation**: Expand in Central for scale; test marketing in Canada to exploit profit margins.  
@@ -166,7 +166,8 @@ RETURN DIVIDE([Total Sales] - __PREV_YEAR, __PREV_YEAR)
 ---
 
 #### 2️⃣ Market Analysis Dashboard  
-![Market Dashboard](Screenshot%202025-09-06%20113620.png)  
+<img width="2752" height="1550" alt="Screenshot 2025-09-06 113620" src="https://github.com/user-attachments/assets/88cc0721-0fa7-46d3-b3e2-77050b409f1c" />
+
 
 - **Observation**: Southeast Asia shows strong YoY growth (+53%) despite low margins and high returns.  
 - **Recommendation**: Test new product launches and optimize margins in Southeast Asia.  
@@ -174,15 +175,14 @@ RETURN DIVIDE([Total Sales] - __PREV_YEAR, __PREV_YEAR)
 ---
 
 #### 3️⃣ Product Dashboard  
-![Product Dashboard](Screenshot%202025-09-06%20113624.png)  
+<img width="2731" height="1555" alt="Screenshot 2025-09-06 113624" src="https://github.com/user-attachments/assets/c6b0d951-b81a-475c-aade-8a132a517d48" />
 
 - **Observation**: Categories like “Tables” have negative profit margin (-8.46%) and high return rates.  
 - **Recommendation**: Pause expansion for underperforming products until root causes are fixed.  
 
 ---
 
-#### 4️⃣ Insights & Recommendations Page  
-![Insights & Recommendations](Screenshot%202025-09-06%20113628.png)  
+## ✅ Insights & Recommendations  
 
 - Central region → focus on deep expansion.  
 - Southeast Asia → experiment with new launches + margin improvements.  
@@ -191,7 +191,7 @@ RETURN DIVIDE([Total Sales] - __PREV_YEAR, __PREV_YEAR)
 
 ---
 
-## 🔎 Final Conclusion & Recommendations  
+## 🔎 Final Conclusion 
 
 📌 **Key Takeaways**:  
 ✔️ Double down on **Central** region – high revenue and growth.  
